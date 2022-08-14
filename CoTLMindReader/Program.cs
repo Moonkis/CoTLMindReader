@@ -15,6 +15,7 @@ namespace CoTL_MindReader
                 Console.WriteLine("Example:");
                 Console.WriteLine("CoTL Mindreader.exe E <PATH_TO_FILE_TO_ENCRYPT>");
                 Console.WriteLine("CoTL Mindreader.exe D <PATH_TO_FILE_TO_DECRYPT>");
+                return;
             }
 
             switch(args[0].ToUpper().Trim())
